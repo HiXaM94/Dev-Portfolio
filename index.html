@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Équipe Dev | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">TeamDev</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">L'Équipe</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Équipe de Développeurs</span>
+                    <span class="title-line highlight">Experts Full-Stack</span>
+                </h1>
+                <p class="hero-subtitle">Une équipe soudée de 5 développeurs passionnés, créant des solutions digitales innovantes et performantes</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">
+                        <span>Découvrir l'équipe</span>
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>Voir nos projets</span>
+                        <i class="fas fa-rocket"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="team-avatars">
+                    <div class="avatar-circle" style="--delay: 0s">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user"></i>
+                            <span>A</span>
+                        </div>
+                    </div>
+                    <div class="avatar-circle" style="--delay: 0.2s">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user"></i>
+                            <span>H</span>
+                        </div>
+                    </div>
+                    <div class="avatar-circle" style="--delay: 0.4s">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user"></i>
+                            <span>I</span>
+                        </div>
+                    </div>
+                    <div class="avatar-circle" style="--delay: 0.6s">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user"></i>
+                            <span>M</span>
+                        </div>
+                    </div>
+                    <div class="avatar-circle" style="--delay: 0.8s">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user"></i>
+                            <span>M</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="about" class="team">
+        <div class="container">
+            <h2 class="section-title">Notre Équipe</h2>
+            <p class="section-subtitle">Découvrez les talents derrière nos projets exceptionnels</p>
+            
+            <div class="team-grid">
+                <!-- Abdellah Alioua -->
+                <div class="team-card">
+                    <div class="member-avatar">
+                        <div class="avatar-img abdellah">
+                            <span>A</span>
+                        </div>
+                        <div class="avatar-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Abdellah Alioua</h3>
+                        <!-- <span class="member-role">Lead Developer</span>
+                        <p>Expert en architecture logicielle et développement backend avec 5 ans d'expérience.</p>
+                        <div class="member-skills">
+                            <span>Node.js</span>
+                            <span>Python</span>
+                            <span>AWS</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Hicham Boukhriss -->
+                <div class="team-card">
+                    <div class="member-avatar">
+                        <div class="avatar-img hicham">
+                            <span>H</span>
+                        </div>
+                        <div class="avatar-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Hicham Boukhriss</h3>
+                        <!-- <span class="member-role">Frontend Specialist</span>
+                        <p>Passionné par les interfaces utilisateur modernes et les expériences utilisateur fluides.</p>
+                        <div class="member-skills">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>UI/UX</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Ilham Miqdam -->
+                <div class="team-card">
+                    <div class="member-avatar">
+                        <div class="avatar-img ilham">
+                            <span>I</span>
+                        </div>
+                        <div class="avatar-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Ilham Miqdam</h3>
+                        <!-- <span class="member-role">Full-Stack Developer</span>
+                        <p>Polyvalente avec une expertise en développement full-stack et gestion de bases de données.</p>
+                        <div class="member-skills">
+                            <span>Vue.js</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Mohemed Fazazi -->
+                <div class="team-card">
+                    <div class="member-avatar">
+                        <div class="avatar-img mohemed">
+                            <span>M</span>
+                        </div>
+                        <div class="avatar-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Mohemed Fazazi</h3>
+                        <!-- <span class="member-role">Mobile Developer</span>
+                        <p>Spécialiste du développement mobile cross-platform et des applications natives.</p>
+                        <div class="member-skills">
+                            <span>React Native</span>
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Mohamed Elkechchad -->
+                <div class="team-card">
+                    <div class="member-avatar">
+                        <div class="avatar-img mohamed">
+                            <span>M</span>
+                        </div>
+                        <div class="avatar-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Mohamed Elkechchad</h3>
+                        <!-- <span class="member-role">DevOps Engineer</span> -->
+                        <!-- <p>Expert en infrastructure cloud, CI/CD et automatisation des processus de déploiement.</p> -->
+                        <!-- <div class="member-skills">
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>Azure</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <!-- <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Projets Livrés</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Membres d'Équipe</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Années d'Expérience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Clients Satisfaits</div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Nos Projets</h2>
+            <p class="section-subtitle">Découvrez nos réalisations les plus marquantes</p>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Épargne Quotidienne -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-badge">Finance</div>
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Épargne Quotidienne</h3>
+                        <p>Application innovante pour suivre et optimiser vos économies quotidiennes avec des objectifs personnalisés.</p>
+                        <div class="project-features">
+                            <span>Suivi des dépenses</span>
+                            <span>Objectifs d'épargne</span>
+                            <span>Analyses détaillées</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-team">
+                            <span>Abdellah</span>
+                            <span>Ilham</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Voir le projet
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Motivation Hub -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-badge">Inspiration</div>
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Motivation Hub</h3>
+                        <p>Plateforme d'inspiration quotidienne avec citations motivantes, défis personnels et suivi de progression.</p>
+                        <div class="project-features">
+                            <span>Citations quotidiennes</span>
+                            <span>Défis personnalisés</span>
+                            <span>Communauté active</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Firebase</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-team">
+                            <span>Hicham</span>
+                            <span>Mohemed</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://motivation-platform-pro-4u24mz.dappling.network/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Voir le projet
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task Manager -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-badge">Productivité</div>
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Manager Pro</h3>
+                        <p>Application de gestion de tâches avancée avec collaboration d'équipe et intégrations multiples.</p>
+                        <div class="project-features">
+                            <span>Collaboration équipe</span>
+                            <span>Intégrations API</span>
+                            <span>Analyses de productivité</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-team">
+                            <span>Ilham</span>
+                            <span>Mohamed</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://task-tracker00-01xpke.dappling.network/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Voir le projet
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Football Standings -->
+                <div class="project-card" data-category="sports">
+                    <div class="project-image">
+                        <div class="project-badge">Live</div>
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Football Standings</h3>
+                        <p>Application de classements de football en temps réel avec statistiques détaillées et analyses avancées.</p>
+                        <div class="project-features">
+                            <span>Temps réel</span>
+                            <span>Statistiques détaillées</span>
+                            <span>Multi-ligues</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>WebSocket</span>
+                        </div>
+                        <div class="project-team">
+                            <span>Abdellah</span>
+                            <span>Hicham</span>
+                            <span>Mohamed</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#football-demo" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Voir la démo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Football Standings Demo -->
+    <section id="football-demo" class="football-demo">
+        <div class="container">
+            <h2 class="section-title">Demo: Football Standings</h2>
+            <p class="section-subtitle">Classements en temps réel des principales ligues européennes</p>
+            
+            <div class="standings-container">
+                <div class="league-selector">
+                    <button class="league-btn active" data-league="premier">Premier League</button>
+                    <button class="league-btn" data-league="liga">La Liga</button>
+                    <button class="league-btn" data-league="seriea">Serie A</button>
+                    <button class="league-btn" data-league="ligue1">Ligue 1</button>
+                </div>
+                <div class="standings-table">
+                    <div class="table-header">
+                        <div class="pos">#</div>
+                        <div class="team">Équipe</div>
+                        <div class="played">MJ</div>
+                        <div class="won">G</div>
+                        <div class="drawn">N</div>
+                        <div class="lost">P</div>
+                        <div class="goals">+/-</div>
+                        <div class="points">PTS</div>
+                        <div class="form">Forme</div>
+                    </div>
+                    <div class="table-body" id="standings-body">
+                        <!-- Standings will be populated by JavaScript -->
+                    </div>
+                </div>
+                <div class="standings-actions">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i>
+                        Voir l'application complète
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        Code source
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Travaillons Ensemble</h2>
+            <p class="section-subtitle">Discutons de votre prochain projet</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contactez Notre Équipe</h3>
+                    <p>Nous sommes toujours intéressés par de nouveaux défis et opportunités de collaboration.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span>Email</span>
+                                <a href="mailto:contact@teamdev.com">contact@teamdev.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span>Téléphone</span>
+                                <a href="tel:+33612345678">+212 6 10 00 01 11</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span>Localisation</span>
+                                <span>Marrakech, Maroc</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="availability">
+                        <h4>Disponibilité</h4>
+                        <p>Notre équipe est disponible pour de nouveaux projets à partir de <strong>Janvier 2024</strong></p>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Type de projet</option>
+                            <option value="web">Application Web</option>
+                            <option value="mobile">Application Mobile</option>
+                            <option value="fullstack">Projet Full-Stack</option>
+                            <option value="consulting">Consulting</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Décrivez votre projet..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Envoyer le message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-text">TeamDev</span>
+                    <p>Une équipe de développeurs passionnés créant des solutions digitales exceptionnelles</p>
+                    <div class="footer-projects">
+                        <h4>Projets Récents</h4>
+                        <div class="project-links-mini">
+                            <a href="https://motivation-platform-pro-4u24mz.dappling.network/" target="_blank">Motivation Hub</a>
+                            <a href="https://task-tracker00-01xpke.dappling.network/" target="_blank">Task Manager</a>
+                            <a href="#football-demo">Football Standings</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <a href="#home">Accueil</a>
+                    <a href="#about">L'Équipe</a>
+                    <a href="#projects">Projets</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Restez informé de nos nouveaux projets</p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Votre email">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TeamDev. Tous droits réservés. | Développé avec ❤️ par notre équipe</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
